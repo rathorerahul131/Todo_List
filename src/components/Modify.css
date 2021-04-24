@@ -26,3 +26,12 @@
     background-color:rgba(202, 156, 24, 1); 
     cursor: pointer;
   }
+.Save{
+    margin-left: 10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1); 
+    cursor: pointer;
+  }
