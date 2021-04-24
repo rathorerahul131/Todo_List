@@ -64,14 +64,14 @@ class Modify extends Component{
                                 <input  
                                 className = 'Input' 
                                 type="text" value={this.state.currentItem.text} onChange={this.handleInput} />
-                                <button onClick = {() => {this.saveIt(idx)}}>Save</button>
+                                <button className = 'Save'  onClick = {() => {this.saveIt(idx)}}>Save</button>
                             </div>
 
                         :
                         <div>
                             <span onClick = {() => {this.deleteIt(idx)}}>{eachItem.text}</span>
-                            <button onClick = {() => {this.deleteIt(idx)}}>Delete</button>
-                            <button onClick = {() => {this.editIt(idx)}}>Edit</button>
+                            <button className = 'Delete' onClick = {() => {this.deleteIt(idx)}}>Delete</button>
+                            <button className = 'Edit' onClick = {() => {this.editIt(idx)}}>Edit</button>
                         </div>
                         }
                         <br/>
